@@ -5,6 +5,7 @@ Terdapat 1 class Petshop yang memiliki 4 atribut utama:
 * Kategori
 * Harga
 * next sebagai pointer
+Untuk fungsi/method didefinisikan dalam class, eksekusi fungsi/methodnya serta inputan di dalam main 
 
 # Alur Program
 * Program dimulai dengan menampilkan menu perintah sebanyak 6 menu dengan rincian.
