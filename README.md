@@ -2,6 +2,13 @@
 
 Saya Nina Wulandari dengan NIM 2312091 mengerjakan Latihan Praktikum 1 dan Tugas Praktikum 1 dalam mata kuliah DPBO untuk keberkahan-Nya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
 
+# Fitur dalam Keseluruhan Program
+* Menampilkan data yang tersedia
+* Menambahkan data baru
+* Mengubah data yang sudah ada
+* Menghapus data yang diinginkan
+* Mencari data yang diinginkan berdasarkan nama produk
+
 # Deskripsi Kode C++, PYTHON dan JAVA
 Terdapat 1 class Petshop yang memiliki 4 atribut utama:
 * ID (unik increment untuk setiap produk)
@@ -28,3 +35,20 @@ Untuk fungsi/method didefinisikan dalam class, eksekusi fungsi/methodnya serta i
 * Output program hanya akan berlaku pada sesi saat itu saja ketika user belum pilih menu keluar.
 * Setelah keluar hasil program akan dimulai dari mula lagi.
 
+# Deskripsi Kode PHP
+Terdapat 1 class Petshop yang memiliki 5 atribut utama:
+* ID (unik increment untuk setiap produk)
+* Nama
+* Kategori
+* Harga
+* Foto
+* next sebagai pointer
+
+Kemudian class tersebut diakses di index yang mana index berisi tampilan html, form input, pencarian, pengelolaan session, serta eksekusi CRUD
+
+# Alur Program PHP
+* Dalam halaman index program akan menampilkan form tambah data, menu cari data, menampilkan daftar data, dan button untuk reset data (keluar sesi).
+* User menambahkan data di form tambah data kemudian klik tambah peralatan, maka data baru akan langsung muncul dalam daftar.
+* Dalam setiap data di tampilan daftar peralatan terdapat menu edit dan hapus. Jika user pilih edit maka akan mengubah form tambah data menjadi ubah data, kemudian user isi kembali data yang baru. Jika user pilih hapus maka data tersebut akan langsung terhapus dalam daftar.
+* Untuk menu cari, user cari peralatan berdasarkan nama. Jika ditemukan akan muncul dalam daftar, jika tidak ditemukan akan menampilkan text bahwa peralatan tidak ditemukan.
+* Button reset data digunakan untuk mengakhiri sesi saat ini sehingga seluruh data akan terhapus dan dimulai dari awal, jika tidak klik reset maka data yang dahulu akan tetap ada dalam sesi selanjutnya.
