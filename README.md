@@ -16,6 +16,7 @@ Terdapat 1 class Petshop yang memiliki 4 atribut utama:
 * Kategori
 * Harga
 * next sebagai pointer
+
 Untuk fungsi/method didefinisikan dalam class, eksekusi fungsi/methodnya serta inputan user untuk menu ada di dalam main.
 
 # Alur Program C++, PYTHON dan JAVA
@@ -44,7 +45,7 @@ Terdapat 1 class Petshop yang memiliki 5 atribut utama:
 * Foto
 * next sebagai pointer
 
-Kemudian class tersebut diakses di index yang mana index berisi tampilan html, form input, pencarian, pengelolaan session, serta eksekusi CRUD
+Untuk fungsi-fungsi ada di dalam class. Kemudian class tersebut diakses di index yang mana index berisi tampilan html, form input, pencarian, pengelolaan session, serta eksekusi CRUD
 
 # Alur Program PHP
 * Dalam halaman index program akan menampilkan form tambah data, menu cari data, menampilkan daftar data, dan button untuk reset data (keluar sesi).
